@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/course_add"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/add_email"
+        android:hint="Enter Email"
+        android:layout_marginTop="101dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/add_password"
+        android:hint="Enter Password"
+        android:layout_marginTop="57dp"
+        android:layout_alignTop="@+id/add_email"
+        android:layout_alignLeft="@+id/add_email"
+        android:layout_alignStart="@+id/add_email" />
+
+    <Button
+        android:text="Register Now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_frag_Button"
+
+        android:layout_below="@+id/add_password"
+        android:layout_alignLeft="@+id/add_password"
+        android:layout_alignStart="@+id/add_password"
+        android:layout_marginTop="15dp" />
+
+</RelativeLayout>
+
+
+    <!--
+     android:onClick="addUser"
+     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="edu.tacoma.uw.tedy.mygame.RegisterFragment">
+
+        <!- TODO: Update blank fragment layout -
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/hello_blank_fragment" />
+
+    tools:context="edu.tacoma.uw.tedy.thegame.LoginActivity"
+    </FrameLayout> -->

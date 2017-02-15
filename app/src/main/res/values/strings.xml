@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyGame</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="LOGGEDIN">loggedin</string>
+    <string name="LOGIN_FILE"> edu.tacoma.uw.tedy.mygame.LOGIN_FILE</string>
+</resources>
